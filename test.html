@@ -1,0 +1,76 @@
+<html>
+
+<body>
+<div id="board">
+
+	<div><img src="illustrations/cindy.png"></div>
+	<div><img src="illustrations/emmy.png"></div>
+	<div><img src="illustrations/fairy.jpg"></div>
+	<div><img src="illustrations/flying human orian.jpg"></div>
+	<div><img src="illustrations/gladis.png"></div>
+
+
+</div>
+
+<style>
+	body{
+		padding: 80px; 
+	}
+	#board{
+		display: flex; 
+		flex-wrap: wrap; 
+		width: 900px;
+		margin: auto; 
+		gap: 20px; 
+	}
+
+	#board > div{
+		width: 300px; 
+		height: 300px;
+		border-radius: 20px; 
+		z-index: 1; 
+		position: relative; 
+	}
+	
+	#board > div:hover{
+		z-index: 100; 
+	}
+	
+	img{
+		height: 100%; 
+		width: 100%; 
+		object-fit: cover;
+		position: absolute; 
+		border-radius: 20px; 
+	}
+	
+	img:hover{
+		animation-name: grow;
+		animation-duration: 0.5s;
+		animation-fill-mode: forwards;
+		cursor: pointer; 
+	}
+	
+	@keyframes grow{
+		from{
+			height: 100%; 
+			width: 100%; 
+			left: 0;
+			top: 0;		
+			border: 10px transparent solid; 
+		}
+		
+		to{
+			height: 120%; 
+			width: 120%; 
+			left: -10%;
+			top: -10%;
+			border: 10px white solid; 
+		}
+	
+	}
+</style>
+
+</body>
+
+</html>

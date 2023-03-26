@@ -1,0 +1,437 @@
+<!doctype html>
+
+<html  lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">	
+	<meta name="viewport" content="width=device-width, initial-scale=0.6">
+	<link rel="icon" href="logo.png"> 
+	<title> michael rivera portfolio </title> 	
+	<script src="https://kit.fontawesome.com/425eb7a3f6.js" crossorigin="anonymous"></script>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>	
+	<div id="banner">
+		<img src="logo.png">
+		<div id="vertical_rule"></div>
+		<h1>Michael Rivera<br>			
+			Rivsera
+		</h1>
+	</div>
+	
+	<div id="contacts">
+		<div id="contact_links">
+			<a href="https://twitter.com/rivs_era" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/rivsera/" class="fa fa-instagram"></a>
+			<a href="https://www.youtube.com/channel/UCtvbQ7D4LvV-2NmQ_SAN2yQ" class="fa fa-youtube"></a>
+		</div>
+		
+		<div>
+			<a id="to_contacts" href="contacts.html"> View Full Contacts</a>	
+		</div>
+	</div>	
+	
+	<nav id="sticky_nav">
+		<a href="#animation_tag">ANIMATION</a>
+		<a href="#illustration_tag">ILLUSTRATION</a>
+		<a href="#character_design_tag">CHARACTER DESIGN</a>
+		<a href="#stop_motion_tag"> STOP MOTION</a>
+		<a href="#banner">BACK TO TOP</a>	
+	</nav>
+	
+	<div id="mobile_contacts">
+		<div id="mobile_links">
+			<a href="https://twitter.com/rivs_era" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/rivsera/" class="fa fa-instagram"></a>
+			<a href="https://www.youtube.com/channel/UCtvbQ7D4LvV-2NmQ_SAN2yQ" class="fa fa-youtube"></a>
+		</div>
+		
+		<div>
+			<a id="to_mobile" href="contacts.html"> View Full Contacts</a>	
+		</div>
+	</div>		
+
+	<div id="subjects">
+		
+		<div id="animation" class="subject">
+		<div id="animation_tag" class="position_tag"></div>
+			<div id="ani_content">
+			
+				<div id="ani_left">
+					<h2 id="ani_title">ANIMATION</h2>
+					
+					<a href="animation gallery.html"> 
+						<h2 id="ani_preview_title">VIEW FULL GALLERY</h2>
+						<img id="ani_gallery_preview" src="animations/ani gallery preview.jpg">
+					</a>									
+				</div>
+				
+				<div id="ani_viewer">
+					<div id="ani_videos">
+				
+						<video  height="300" controls>
+							<source src="animations/attitude walk.mov" type="video/mp4">
+							Your browser does not support the video.
+						</video>
+					
+						<video  height="300" controls>
+							<source src="animations/final turnaround.mov" type="video/mp4">
+							Your browser does not support the video.
+						</video>
+						
+						<video  height="300" controls poster="animations/thumbnail.jpg">
+							<source src="animations/my deerest sister.mp4" type="video/mp4">
+							Your browser does not support the video.
+						</video>
+				
+					</div>
+				
+					<div id="ani_thumbnails">
+						<img onclick="scroll_to_walk()" src="animations/walk preview.jpg">
+						<img onclick="scroll_to_rot()" src="animations/turnaround preview.jpg">
+						<img onclick="scroll_to_sister()" src="animations/thumbnail.jpg">
+					</div>
+			
+				</div>
+				
+			</div>
+			
+			
+		</div>
+		
+		<div id="illustration" class="subject">
+		<div id="illustration_tag" class="position_tag"></div>
+		
+			<div id="ill_content">
+				
+				<div id="ill_left">
+					<h2 id="ill_title">ILLUSTRATION</h2>
+					
+					<a href="illustration gallery.html"> 
+						<h2 id="ill_preview_title">VIEW FULL GALLERY</h2>
+						<img id="ill_gallery_preview" src="illustrations/ill gallery preview.jpg">
+					</a>									
+				</div>
+				
+				<div id="ill_viewer">
+					<div id="ill_slideset" class="preview_gallery">
+						<img src="illustrations/cindy.png">
+						<img src="illustrations/flying human orian.jpg">
+						<img src="illustrations/miss doe.jpg">
+						<img src="illustrations/rosalin green.png">	
+					</div>
+					
+					<div id="ill_thumbnails">
+						<img onclick="scroll_to_cindy()" src="illustrations/cindy.png">
+						<img onclick="scroll_to_h_orion()" src="illustrations/flying human orian.jpg">
+						<img onclick="scroll_to_ms_doe()" src="illustrations/miss doe.jpg">
+						<img onclick="scroll_to_rosalin()" src="illustrations/rosalin green.png">	
+					</div>
+				</div>
+				
+			</div>
+		
+		</div>
+		
+		<div id="character_design" class="subject">
+			<div id="character_design_tag" class="position_tag"></div>
+		
+			
+			<div id="cd_content">
+			
+				<div id="cd_left">
+					<h2 id="cd_title">CHARACTER DESIGN</h2>
+					
+					<a href="character design gallery.html"> 
+						<h2 id="cd_preview_title">VIEW FULL GALLERY</h2>
+						<img id="cd_gallery_preview" src="character_design/cd gallery preview.png">
+					</a>
+				
+					<div id="cd_selector">
+						<div onclick="scroll_to_orion()"> <img src="character_design/puffball orion.jpg"></div>
+						<div onclick="scroll_to_miko()">  <img src="character_design/miko.png"></div>
+						<div onclick="scroll_to_gaia()">  <img src="character_design/gaia preview.jpg"></div>		 
+					</div>
+				</div>
+				
+						
+				<div id="cd_viewer" class="preview_gallery">
+					<div id="orion_board" class="cd_viewer_board">
+					
+						<img id="orion_1" src="character_design/human orion close.jpg">
+						<img id="orion_2" src="character_design/human orion.jpg">
+						<img id="orion_3" src="character_design/crown designs.jpg">
+						<img id="orion_4" src="character_design/shape orion.jpg">
+						<img id="orion_5" src="character_design/dapper orion.jpg">
+					</div>
+					
+					<div id="miko_board">
+					
+						<img id="miko_1" src="character_design/miko turnaround.jpg">
+						<img id="miko_2" src="character_design/miko faces.jpg">
+						<img id="miko_3" src="character_design/miko actions.jpg">
+					</div>
+					
+					<div id="gaia_board">
+						<img id="gaia_2" src="character_design/gaia.jpg">
+					</div>				
+				</div>								
+			</div>
+		
+		</div>
+		
+		
+		<div id="stop_motion" class="subject">
+		<div id="stop_motion_tag" class="position_tag"></div>
+		
+		<div id="stopmo_content">
+		
+			<div id="stopmo_left">
+				<h2 id="cd_title">STOP MOTION</h2>
+				
+				<a href="stop motion gallery.html"> 
+					<h2 id="stopmo_preview_title">VIEW FULL GALLERY</h2>
+					<img id="stopmo_gallery_preview" src="stop_motion/stopmo gallery preview.jpg">
+				</a>		
+			</div>
+		
+			<div id="stopmo_viewer">
+				<div id="stopmo_slideset" class="preview_gallery">
+					
+					<img src="stop_motion/bubby.gif">
+					
+					<video  height="300" controls>
+						<source src="stop_motion/bubby stretch.mp4" type="video/mp4">
+						Your browser does not support the video.
+					</video>
+						
+					<video  height="300" controls>
+						<source src="stop_motion/maria.mp4" type="video/mp4">
+						Your browser does not support the video.
+					</video>	
+				</div>
+				
+				<div id="stopmo_thumbnails">
+					<img onclick="scroll_to_bubby()" src="stop_motion/bubby thumbnail.jpg">
+					<img onclick="scroll_to_stretch()" src="stop_motion/stretch thumbnail.jpg">
+					<img onclick="scroll_to_maria()" src="stop_motion/maria thumbnail.jpg">
+				</div>				
+			</div>
+		</div>
+		
+		</div>
+	</div>
+	
+<footer>
+
+</footer>
+
+<style>
+
+
+
+@media(min-width: 1001px) and (max-width: 1550px){
+	
+
+	body{
+		width: 100%; 
+		overflow-x: hidden;  
+	}
+
+	
+	#subjects{
+		min-width: 800px; 
+		width: 100%; 
+	}
+
+	.subject{
+		min-width: 800px; 
+		width: 100%; 
+	}
+
+	#ill_content, #ani_content, #stopmo_content{
+		justify-content: center;  
+		gap: 30px; 
+		padding-left: 0px;
+		padding-right: 0px;
+		min-width: 800px; 
+		width: 50%; 
+	}
+
+	nav a{
+		padding: 20px 1%; 
+	}
+	
+	nav{
+		min-width: 300px; 
+		width: 100%; 
+		justify-content: center; 
+	}
+	
+	#cd_content{
+		flex-direction: column; 
+		align-items: center; 
+		justify-content: start; 
+		
+	}
+	
+	#subjects #character_design{
+		height: 1050px; 
+	}
+	
+	#cd_selector{
+		display: none; 
+	}
+	
+	#cd_viewer{
+		background: transparent; 
+	}
+	
+	#cd_left{
+		gap: 20px; 
+	}
+	
+}
+
+
+@media (max-width: 1000px) {
+	
+	
+	body{
+		min-width: 600px; 
+	}
+	
+	
+	nav{
+		justify-content: center; 
+		display: none; 
+	}
+	
+	nav a{
+		padding: 10px; 
+	}
+	
+	
+	#contacts{
+		display: none; 
+	}
+	
+	#mobile_contacts{
+		display: block; 
+	}
+	
+	#ill_content, #ani_content, #stopmo_content, #cd_content{
+		padding-top: 20px; 
+		flex-direction: column; 
+		align-items: center; 
+		justify-content: top; 
+		width: 100%;
+		gap: 5px; 
+	}
+	
+	
+	
+	#subjects > div{
+		height: 1000px; 
+		position: relative; 
+		width: 100%; 
+	}
+	
+
+	#subjects #cd_content{
+		gap: 20px; 
+		justify-content: start; 
+	}
+	
+	#cd_left{
+		gap: 10px; 
+	}
+
+
+	#cd_viewer{
+	background: transparent; 		
+	}
+	
+	#cd_selector{
+		display: none; 
+	}
+	
+	
+}
+
+</style>
+
+<script>
+	var ani_videos = document.getElementById("ani_videos");
+	
+	function scroll_to_walk(){
+	ani_videos.scrollTo(0,0);
+	}
+	
+	function scroll_to_rot(){
+	ani_videos.scrollTo(620,0);
+	}
+	
+	function scroll_to_sister(){
+	ani_videos.scrollTo(1240,0);
+	}
+
+
+	
+	
+	var ill_slideset = document.getElementById("ill_slideset");
+	
+	function scroll_to_cindy(){
+	ill_slideset.scrollTo(0,0);
+	}
+	
+	function scroll_to_h_orion(){
+	ill_slideset.scrollTo(525,0);
+	}
+	
+	function scroll_to_ms_doe(){
+	ill_slideset.scrollTo(1050,0);
+	}
+	
+	function scroll_to_rosalin(){
+	ill_slideset.scrollTo(1550,0);
+	}	
+
+
+	var cd_viewer = document.getElementById("cd_viewer");
+	
+	
+	function scroll_to_orion(){
+	cd_viewer.scrollTo(0,0);
+	}
+	
+	function scroll_to_miko(){
+	cd_viewer.scrollTo(850,0);
+	}	
+	
+	
+	function scroll_to_gaia(){
+	cd_viewer.scrollTo(1800,0);
+	}	
+	
+	var stopmo_slideset = document.getElementById("stopmo_slideset");
+	
+	function scroll_to_bubby(){
+	stopmo_slideset.scrollTo(0,0);
+	}
+	
+	function scroll_to_stretch(){
+	stopmo_slideset.scrollTo(620,0);
+	}
+	
+	function scroll_to_maria(){
+	stopmo_slideset.scrollTo(1240,0);
+	}
+</script>
+	
+</body>
+
+
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html  lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<link rel="stylesheet" href="">	
+		<link rel="icon" href=""> <!-- image in browser tab -->
+		<title> </title> 
+		<script src="https://kit.fontawesome.com/425eb7a3f6.js" crossorigin="anonymous"></script>	
+	</head>
+	
+	<body>
+		<div id="banner">
+		<img src="logo.png">
+		<div id="vertical_rule"></div>
+		<h1>ILLUSTRATION
+		</h1>
+	
+		</div>
+	
+	
+		<nav>
+			<a href="animation gallery.html"><i class="fa-solid fa-chevron-left"></i>ANIMATION </a>
+			<a href="index.html">HOME</a>
+			<a href="character design gallery.html">CHARACTER DESIGN<i class="fa-solid fa-chevron-right"></i></a>
+		
+		</nav>
+		
+		
+	
+		<div id="image_board">
+			<div> <img src="illustrations/cindy.png"> </div>
+			<div> <img src="illustrations/emmy.png"> </div>
+			<div> <img src="illustrations/fairy.jpg"> </div>
+			<div> <img src="illustrations/flying human orian.jpg"> </div>
+			<div> <img src="illustrations/gladis.png"> </div>
+			<div> <img src="illustrations/goddess miyuki.png"> </div>
+			<div> <img src="illustrations/miss doe.jpg"> </div>
+			<div> <img src="illustrations/robot cave.jpg"> </div>
+			<div> <img src="illustrations/rosalin green.png"> </div>
+			<div> <img src="illustrations/rosalin lined.jpg"> </div>
+		</div>		
+		
+		<footer>
+		</footer>
+	</body>
+	
+<style>
+	body{
+	background-color: #F58A8A; 		
+	padding: 0px; 
+	margin: 0px; 
+	font-family: sans-serif; 
+	display: grid; 	
+	}
+
+	#banner{
+	height: 200px; 
+	display: flex; 
+	margin: auto;
+	justify-content: center; 
+	align-items: center; 
+	background-color: white; 
+	width: 100%; 
+	}
+
+	h1{
+	padding: 20px; 	
+	}
+
+	#banner img{
+		height: 200px; 		
+	}
+
+	#vertical_rule{
+		height: 100px; 
+		background-color: black; 
+		width: 5px; 	
+	}
+	
+	nav{
+		display: flex; 
+		justify-content: space-between; 
+		font-size: 18px; 
+		padding: 20px;
+		position: sticky; 
+		top: 0px; 
+		background-color: white;
+		z-index: 10; 
+		min-width: 800px; 
+	}
+
+	#image_board{
+		display: flex; 
+		flex-wrap: wrap; 
+		gap: 20px; 
+		width: 100%; 
+		justify-content: center; 
+		margin: auto; 
+		margin-top: 30px;
+	}
+	
+	
+	#img_board div img{
+		width: 100px; 
+	}
+	
+	#img_board img:hover{
+		animation-name: grow;
+		animation-duration: 1s;
+	}
+	
+	@keyframes grow{
+		 from {
+			height:100%;
+			width: 100%;
+		 }
+		to {
+			height:200%;
+			width: 200%;		
+		}
+	
+	}
+	
+	a{
+		color: black;
+		text-decoration: none; 
+		}
+	
+	
+	
+	nav a:hover{
+		color: #83AAF3; 
+	}
+	
+	footer{
+		height: 40px; 
+	}
+</style>
+
+
+</html>

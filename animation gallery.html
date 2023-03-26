@@ -1,0 +1,167 @@
+<!doctype html>
+
+<html  lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="styles.css">	
+	<link rel="icon" href=""> <!-- image in browser tab -->
+	<title> </title> 
+	<script src="https://kit.fontawesome.com/425eb7a3f6.js" crossorigin="anonymous"></script>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div id="banner">
+		<img src="logo.png">
+		<div id="vertical_rule"></div>
+		<h1>ANIMATION</h1>	
+	</div>
+	
+	<div id="contacts">
+		<div id="contact_links">
+			<a href="https://twitter.com/rivs_era" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/rivsera/" class="fa fa-instagram"></a>
+			<a href="https://www.youtube.com/channel/UCtvbQ7D4LvV-2NmQ_SAN2yQ" class="fa fa-youtube"></a>
+		</div>
+		
+		<div>
+			<a id="to_contacts" href="contacts.html"> View Full Contacts</a>	
+		</div>
+	</div>
+
+
+	<nav>
+		<a href="stop motion gallery.html"><i class="fa-solid fa-chevron-left"></i>STOP MOTION</a>
+		<a href="index.html">HOME</a>
+		<a href="illustration gallery.html">ILLUSTRATION<i class="fa-solid fa-chevron-right"></i></a>
+	
+	</nav>
+	
+	<div id="mobile_contacts">
+		<div id="mobile_links">
+			<a href="https://twitter.com/rivs_era" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/rivsera/" class="fa fa-instagram"></a>
+			<a href="https://www.youtube.com/channel/UCtvbQ7D4LvV-2NmQ_SAN2yQ" class="fa fa-youtube"></a>
+		</div>
+		
+		<div>
+			<a id="to_mobile" href="contacts.html"> View Full Contacts</a>	
+		</div>
+	</div>			
+	
+
+	<div id="image_board">
+	
+		<video  height="300" controls>
+		  <source src="animations/attitude walk.mov" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+		
+		<video  height="300" controls>
+		  <source src="animations/dialogue.mov" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+		
+		<video  height="300" controls>
+		  <source src="animations/diving.mov" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+		
+		<video  height="300" controls>
+		  <source src="animations/emmy loop.mp4" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+		
+		<video  height="300" controls>
+		  <source src="animations/final turnaround.mov" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+		
+		<video  height="300" controls>
+		  <source src="animations/jump turn.mov" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+		
+		<video  height="300" controls poster="animations/thumbnail.jpg">
+		  <source src="animations/my deerest sister.mp4" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+		
+		<video  height="300" controls>
+		  <source src="animations/walk cycle.mp4" type="video/mp4">
+		  Your browser does not support the video.
+		</video>
+	</div>		
+	
+	<footer>
+	</footer>
+</body>
+	
+<style>
+
+html{
+	width: 100%; 
+}
+
+body{
+	background-color: #F5F58A; 		
+	padding: 0px; 
+	margin: 0px; 
+	font-family: sans-serif; 
+	overflow-x: hidden; 
+}
+
+#image_board > div{
+	width: 400px; 
+	height: 400px; 
+	border-radius: 20px; 
+	z-index: 1; 
+	position: relative; 
+	
+}
+
+video{
+	border-radius: 20px; 
+}
+
+@media (max-width: 1000px){
+
+	body{
+		margin: 0px; 
+		padding: 0px; 
+		width: 100%; 
+		max-width: 1000px; 
+	}
+	
+
+	#preview_board div img{
+		width: 80%;
+		margin-left: 10%;  
+	}
+	
+	#contacts{
+		display: none; 
+	}
+	
+	#mobile_contacts{
+		display: block; 
+	}
+	
+	nav a{
+		padding: 20px 10px; 
+	}
+	
+	nav{ 
+		width:100%;  
+		min-width: 300px; 
+	}
+}
+
+</style>
+
+
+
+
+</html>
